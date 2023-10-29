@@ -15,14 +15,12 @@ class CheckBit
     static boolean checkKthBit(int n, int k)
     {
         // Your code here
-        // Java program to check if k-th bit
-        // of a given number is set or not
-        boolean a = false;
-        if ((n & (1 <<k)) != 0)
+       boolean a = false;
+		if ((n & (1 <<k)) != 0)
 			a = true;
 			
 		return a;
-	}
+    }
     
 }
 
